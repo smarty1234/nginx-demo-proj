@@ -22,4 +22,4 @@ This assumes you have an AWS account - got your access key, secret and a private
 
 command: ssh -i <private_key_with_path> ubuntu@<public_ip_from_above>
 
-- Execute `terraform destroy -var-file="secret.tfvars`
+- Execute `terraform destroy -var-file="secret.tfvars"`
